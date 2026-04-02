@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "bagofholding" %}
-{% set version = "0.1.10" %}
+{% set version = "0.1.11" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/bagofholding-{{ version }}.tar.gz
-  sha256: 8dec5cfd2a59c7319fbad6dc0d7d6c44ba6da4270e5e2172dd62ffb852d4f24c
+  sha256: 89780f6eb8145daa2efa46ea4c85770fb836ca4aeb1a08803c53ee596d40b89e
 
 build:
   noarch: python
